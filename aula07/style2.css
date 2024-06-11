@@ -1,0 +1,42 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: rgb(139, 170, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+header, footer {
+    background-color: rgb(88, 117, 250);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+section {
+    margin: 25px;
+    width: 75%;
+}
+article {
+    border: 3px solid rgb(0, 47, 109);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 0;
+}
+aside {
+    background-color: rgb(84, 115, 255);
+    padding: 20px;
+    width: 20%;
+}
+table,
+th,
+td {
+    border: 5px solid rgb(44, 108, 163);
+    border-collapse: collapse;
+    font-size: larger;
+}

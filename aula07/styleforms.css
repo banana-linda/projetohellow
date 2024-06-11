@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(56, 141, 238);
+}
+
+form{ 
+background-color: rgb(50, 161, 224);
+padding: 20px;
+border: 3px solid rgb(121, 245, 245);
+border-radius: 5px;
+box-shadow: 0 0 10px;
+}
+label{
+display: block;
+margin-top: 10px;
+}
+input,
+textarea,
+select,
+button{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 10px;
+border: 3px slid rgb(158, 241, 241);
+border-radius: 5px;
+}
+button{
+background-color: rgb(70, 70, 255);
+color: rgb(155, 195, 255);
+border: none;
+cursor: pointer
+}
+button:hover{
+    background-color: aqua;
+}
